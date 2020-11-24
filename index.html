@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kotlin Js</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/index.css" />
+</head>
+<body id="body" onclick="recordCoordinates(event)">
+    <header>
+        <h1 id="title">Kotlin/JS</h1>
+    </header>
+    <section class="section">
+        <textarea id="textfield" type="text"></textarea>
+        <br/>
+        <button id="botao01" class="button">Sou um botão</button>
+    </section>
+    <hr />
+    <section class="section">
+        <h3 id="x-coord">Coordenada x: </h3>
+        <h3 id="y-coord">Coordenada y: </h3>
+    </section>
+<script src="out/production/atividadeVII/lib/kotlin.js"></script>
+<script src="out/production/atividadeVII/atividadeVII.js"></script>
+    <script>
+        function recordCoordinates(event) {
+            window.xCoordinate = event.screenX;
+            window.yCoordinate = event.screenY;
+        }
+    </script>
+</body>
+</html>

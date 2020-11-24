@@ -1,0 +1,25 @@
+#title {
+  text-align: center;
+  color: #8aabff;
+}
+
+.section {
+  text-align: center;
+}
+
+.button {
+  height: 2em;
+  width: 8em;
+  background: #a2d7ff;
+  border: solid 2px #6980ec;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#textfield {
+    border: solid 2px #6980ec;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
